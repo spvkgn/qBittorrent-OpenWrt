@@ -1,0 +1,200 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  pre:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.gh.outputs.version }}
+    steps:
+      - name: GH
+        id: gh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "VERSION=$(gh api repos/qbittorrent/qBittorrent/tags | jq -r 'first(.[].name|select(test("alpha|beta|rc")|not)|scan("[(\\d.)]+\\d+"))')" >> $GITHUB_OUTPUT
+
+  build:
+    name: '${{ matrix.branch }} :: ${{ matrix.arch }}'
+    needs: pre
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        branch:
+          - openwrt-23.05
+        arch:
+          - aarch64_cortex-a53
+          - aarch64_cortex-a72
+          - aarch64_generic
+          - arm_cortex-a15_neon-vfpv4
+          - arm_cortex-a5_vfpv4
+          - arm_cortex-a7
+          - arm_cortex-a7_neon-vfpv4
+          - arm_cortex-a7_vfpv4
+          - arm_cortex-a8_vfpv3
+          - arm_cortex-a9
+          - arm_cortex-a9_neon
+          - arm_cortex-a9_vfpv3-d16
+          - mips64_octeonplus
+          - mips_24kc
+          - mips_4kec
+          - mips_mips32
+          - mipsel_24kc
+          - mipsel_24kc_24kf
+          - mipsel_74kc
+          - mipsel_mips32
+          - x86_64
+      fail-fast: false
+    defaults: { run: { shell: bash } }
+    container:
+      image: openwrt/sdk:${{ matrix.arch }}-${{ matrix.branch }}
+      options: --user root
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup SDK
+        if: matrix.branch == 'openwrt-23.05' || matrix.branch == 'SNAPSHOT'
+        working-directory: /builder
+        run: HOME=/builder ./setup.sh
+
+      - name: Setup ccache
+        uses: actions/cache@v4
+        with:
+          path: /builder/.ccache
+          key: ccache-${{ matrix.branch }}-${{ matrix.arch }}-${{ github.run_id }}
+          restore-keys: ccache-${{ matrix.branch }}-${{ matrix.arch }}-
+
+      - name: Build packages
+        id: build
+        working-directory: /builder
+        env:
+          ARCH: ${{ matrix.arch }}
+          BRANCH: ${{ matrix.branch }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SIGN_KEY: ${{ secrets.SIGN_PRIVATE_KEY }}
+          VERSION: ${{ needs.pre.outputs.version }}
+        run: |
+          sed -i "s|@VERSION@|$VERSION|" $GITHUB_WORKSPACE/qbittorrent/Makefile
+
+          mv feeds.conf.default feeds.conf
+          sed -e 's|base.*\.git|base https://github.com/openwrt/openwrt.git|' \
+              -e 's|packages.*\.git|packages https://github.com/openwrt/packages.git|' \
+              -e 's|luci.*\.git|luci https://github.com/openwrt/luci.git|' \
+              -e 's|routing.*\.git|routing https://github.com/openwrt/routing.git|' \
+              -e 's|telephony.*\.git|telephony https://github.com/openwrt/telephony.git|' -i feeds.conf
+          echo "src-link qbittorrent $GITHUB_WORKSPACE" >> feeds.conf
+
+          ./scripts/feeds update base packages luci qbittorrent
+          ./scripts/feeds install -a -p qbittorrent
+          make defconfig
+          make package/{qbittorrent,luci-app-qbittorrent}/compile -j$(nproc) CONFIG_CCACHE=1 BUILD_LOG=1
+          ./staging_dir/host/bin/ccache --dir .ccache --max-size=300M --show-stats
+          ls -lh ./bin/packages/*/qbittorrent
+          # zip -0 $GITHUB_WORKSPACE/qbittorrent_$VERSION-$ARCH.zip -j ./bin/packages/*/qbittorrent/*.*pk
+          rm -rf ./bin/packages/*/base/*
+          mv ./bin/packages/*/qbittorrent/*.*pk ./bin/packages/*/base
+          echo "$SIGN_KEY" | base64 -d > key-build
+          make package/index
+          tar -C ./bin/packages/*/base -cvf $GITHUB_WORKSPACE/pkg-$BRANCH-$ARCH.tar --transform "s|^\./|${BRANCH/openwrt-}/$ARCH/|" --show-transformed-names .
+
+      - name: Compress build logs
+        if: always()
+        run: tar -cJvf logs-${{ matrix.branch }}-${{ matrix.arch }}.tar.xz /builder/logs
+
+      - name: Upload packages
+        if: steps.build.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pkg-${{ matrix.branch }}-${{ matrix.arch }}
+          path: pkg-*.tar
+          if-no-files-found: error
+
+      - name: Upload build logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ matrix.branch }}-${{ matrix.arch }}
+          path: logs-*.tar.xz
+
+      # - name: Upload to release
+      #   uses: softprops/action-gh-release@v2
+      #   with:
+      #     fail_on_unmatched_files: true
+      #     prerelease: false
+      #     draft: false
+      #     tag_name: ${{ needs.pre.outputs.version }}-${{ matrix.branch }}
+      #     name: ${{ needs.pre.outputs.version }} for OpenWrt ${{ matrix.branch }}
+      #     # target_commitish: ${{ }}
+      #     body: |
+      #       ### qBittorrent ${{ needs.pre.outputs.version }} for OpenWrt ${{ matrix.branch }}
+      #     files: qbittorrent*.zip
+
+  gh-pages:
+    needs: [ pre, build ]
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: pkg-*
+
+      - name: Prepare files to deploy
+        run: |
+          mkdir -p public
+          find . -name 'pkg-*.tar' -exec tar -C ./public -xvf {} \;
+          cat << EOF > ./public/key.pub
+          untrusted comment: qBittorrent OpenWrt repo
+          RWT/VRABd/DhShT2jfJ4NNU4AH2vS1acbZD33XjrnXtxc3066Qf6peBf
+          EOF
+
+      - name: Deploy to GH pages
+        id: deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          full_commit_message: ${{ needs.pre.outputs.version }}
+          force_orphan: true
+
+  release:
+    name: Upload assets to release
+    needs: [ pre, gh-pages ]
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        branch: [ '23.05' ]
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: pkg-openwrt-${{ matrix.branch }}-*
+
+      - name: Put packages into zip
+        env:
+          BRANCH: ${{ matrix.branch }}
+          VERSION: ${{ needs.pre.outputs.version }}
+        run: |
+          find . -name "pkg-openwrt-$BRANCH-*.tar" -exec tar -xvf {} --wildcards '*.*pk' \;
+          mkdir -p public
+          find $BRANCH -mindepth 1 -type d -exec sh -c 'zip -0 ./public/qbittorrent_$VERSION-$(basename {}).zip -j {} {}/*' \;
+
+      - name: Upload assets to release
+        uses: softprops/action-gh-release@v2
+        with:
+          fail_on_unmatched_files: true
+          prerelease: false
+          draft: false
+          tag_name: ${{ needs.pre.outputs.version }}-${{ matrix.branch }}
+          name: ${{ needs.pre.outputs.version }} for OpenWrt ${{ matrix.branch }}
+          target_commitish: gh-pages
+          body: |
+            ### qBittorrent ${{ needs.pre.outputs.version }} for OpenWrt ${{ matrix.branch }}
+          files: ./public/*.zip
