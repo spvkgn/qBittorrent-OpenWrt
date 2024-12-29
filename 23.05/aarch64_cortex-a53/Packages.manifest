@@ -1,0 +1,394 @@
+Package: libQt6Concurrent
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Concurrent
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7633
+Filename: libQt6Concurrent_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 8381
+SHA256sum: 35628ae7458873405cbd3fdbe4849865b841bfec3b2c4fc1f64ede0d6749c4f6
+Description:  This package provides the Qt6 Concurrent v6.7.3 library.
+
+Package: libQt6Core
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libpcre2-16
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Core
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2496849
+Filename: libQt6Core_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 2489313
+SHA256sum: d713ac60e9b2915af51efb72e8b4ad27d44ceb4597f32f1f92cf15a1e4f0e457
+Description:  This package provides the Qt6 Core v6.7.3 library.
+
+Package: libQt6DBus
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6DBus
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 328792
+Filename: libQt6DBus_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 329262
+SHA256sum: 2ac5155589fc99a46448eeffe2a4a10638fbc5d259178078755909c05339e9bb
+Description:  This package provides the Qt6 DBus v6.7.3 library.
+
+Package: libQt6Gui
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Gui
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2801468
+Filename: libQt6Gui_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 2797107
+SHA256sum: 2196dff9ae32533e331cf0148d38cbc9432716c968072a7cf43aad5103043e51
+Description:  This package provides the Qt6 Gui v6.7.3 library.
+
+Package: libQt6Network
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Network
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 861793
+Filename: libQt6Network_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 860576
+SHA256sum: d81cb8d39265004b8f749f900d37da5c8f9f7528e1085ef7126e7b723ca538f4
+Description:  This package provides the Qt6 Network v6.7.3 library.
+
+Package: libQt6PrintSupport
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Widgets
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6PrintSupport
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 162992
+Filename: libQt6PrintSupport_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 163066
+SHA256sum: 2cadeba33fe5468ceef4e63cbc6e296ca3c58c4b39929a97a46117c67396a48b
+Description:  This package provides the Qt6 PrintSupport v6.7.3 library.
+
+Package: libQt6Sql
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libsqlite3-0
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Sql
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 79577
+Filename: libQt6Sql_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 80097
+SHA256sum: f807a26506f15739348d2769c97e47ac568d2b77b46ccc3f337719d8ace7a3c6
+Description:  This package provides the Qt6 Sql v6.7.3 library.
+
+Package: libQt6Test
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Test
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 133797
+Filename: libQt6Test_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 134263
+SHA256sum: f751b702cbf156e1d7a95fd46cfb3b8ca62af02e43d18fe6ea2640304e0c0ba2
+Description:  This package provides the Qt6 Test v6.7.3 library.
+
+Package: libQt6Widgets
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Widgets
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3286703
+Filename: libQt6Widgets_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 3279597
+SHA256sum: aa30c3bc5cf921870a92ed174d8dc5290a3f6ceffcc212be5c1d0537ffaa50fe
+Description:  This package provides the Qt6 Widgets v6.7.3 library.
+
+Package: libQt6Xml
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Xml
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 66654
+Filename: libQt6Xml_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 67463
+SHA256sum: 044bc7822f5bb66f4c44cef8612c91247ddb6625c055d1060f33cc8389d16035
+Description:  This package provides the Qt6 Xml v6.7.3 library.
+
+Package: libdouble-conversion
+Version: 3.2.1-1
+Depends: libc, libstdcpp6
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/libdouble-conversion
+SourceName: libdouble-conversion
+License: BSD-3c
+LicenseFiles: COPYING LICENSE
+Section: libs
+SourceDateEpoch: 1735301904
+Architecture: aarch64_cortex-a53
+Installed-Size: 20610
+Filename: libdouble-conversion_3.2.1-1_aarch64_cortex-a53.ipk
+Size: 21374
+SHA256sum: c265d8995a021f7c331aa9fcd061fad80d73ce8278c02e5e65a9dca75eb4f767
+Description:  double-conversion provides binary-decimal and decimal-binary routines for IEEE doubles.
+ 
+ The library consists of efficient conversion routines that have been extracted
+ from the V8 JavaScript engine. The code has been refactored and improved so that
+ it can be used more easily in other projects.
+
+Package: luci-app-qbittorrent
+Version: 241229.28033
+Depends: libc, qbittorrent
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/luci-app-qbittorrent
+SourceName: luci-app-qbittorrent
+Section: luci
+SourceDateEpoch: 1735301904
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2324
+Filename: luci-app-qbittorrent_241229.28033_all.ipk
+Size: 3151
+SHA256sum: 73483106982753927e9596e24e940d1365ccd783c37f2f7a87a3fcbe3e0ef970
+Description:  LuCI app for qBittorrent
+
+Package: luci-i18n-qbittorrent-zh-cn
+Version: 241229.28033
+Depends: libc, luci-app-qbittorrent
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/luci-app-qbittorrent
+SourceName: luci-i18n-qbittorrent-zh-cn
+Section: luci
+SourceDateEpoch: 1735301904
+Architecture: all
+Installed-Size: 884
+Filename: luci-i18n-qbittorrent-zh-cn_241229.28033_all.ipk
+Size: 1647
+SHA256sum: 56a35563c343ce31d03acd21547267f16e3b36521bf413be15bf67e50e717f3f
+Description:  Translation for luci-app-qbittorrent - 简体中文 (Chinese Simplified)
+
+Package: qbittorrent
+Version: 5.0.3-1
+Depends: libc, libtorrent-rasterbar, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qbittorrent
+SourceName: qbittorrent
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qbittorrent:qbittorrent
+Architecture: aarch64_cortex-a53
+Installed-Size: 7822130
+Filename: qbittorrent_5.0.3-1_aarch64_cortex-a53.ipk
+Size: 7815908
+SHA256sum: 85ff2ddb6db8680b84ad2a75d4d2ff9c3f96b982ca53fd5eb55ef9227bdc47b7
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qt6-plugin-libqcertonlybackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqcertonlybackend
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 38677
+Filename: qt6-plugin-libqcertonlybackend_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 39311
+SHA256sum: 6985c478756e7fe015d4ba968993ee1e69459bab017cb184b5319ee03463804a
+Description:  Qt6 Plugin libqcertonlybackend
+
+Package: qt6-plugin-libqminimal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqminimal
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9929
+Filename: qt6-plugin-libqminimal_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 10578
+SHA256sum: 10650c146b097c026fd382756563a28b56434c5fd4cd52fb8e61cc43ed728b12
+Description:  Qt6 Plugin libqminimal
+
+Package: qt6-plugin-libqnetworkmanager
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqnetworkmanager
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 26626
+Filename: qt6-plugin-libqnetworkmanager_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 27227
+SHA256sum: 576c5ef49ba50e774a355b29711db578a5e5c757c363d7360a938177ffffbf67
+Description:  Qt6 Plugin libqnetworkmanager
+
+Package: qt6-plugin-libqoffscreen
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqoffscreen
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 37669
+Filename: qt6-plugin-libqoffscreen_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 38267
+SHA256sum: c78ae74b3134e4378e6fa6617ad99b84ec7f4e04873e90ef392d52ad32efa7bc
+Description:  Qt6 Plugin libqoffscreen
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqopensslbackend
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 118445
+Filename: qt6-plugin-libqopensslbackend_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 118861
+SHA256sum: bda532731d419531dadc333b0cf6be3767febbc19c9475829dcdfcf2d407536f
+Description:  Qt6 Plugin libqopensslbackend
+
+Package: qt6-plugin-libqsqlite
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Sql
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqsqlite
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 39614
+Filename: qt6-plugin-libqsqlite_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 40278
+SHA256sum: 620e5c561290f15b1a5317badc387167d66c41854b0a32553edd0598e0fb5ceb
+Description:  Qt6 Plugin libqsqlite
+
+Package: qt6-plugin-libqtuiotouchplugin
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqtuiotouchplugin
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 36170
+Filename: qt6-plugin-libqtuiotouchplugin_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 36903
+SHA256sum: f5be90789bfe9486a242e2d140d4bd068be230d80d4d521b56352fb1cda29d4f
+Description:  Qt6 Plugin libqtuiotouchplugin
+
+Package: qt6-plugin-libqxdgdesktopportal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqxdgdesktopportal
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 44839
+Filename: qt6-plugin-libqxdgdesktopportal_6.7.3-2_aarch64_cortex-a53.ipk
+Size: 45643
+SHA256sum: f42d6b14e72347335ec79f4a7ef5dfba62fe31875872562322a3260c692f9ce4
+Description:  Qt6 Plugin libqxdgdesktopportal
+

@@ -1,0 +1,394 @@
+Package: libQt6Concurrent
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Concurrent
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 8315
+Filename: libQt6Concurrent_6.7.3-2_mipsel_74kc.ipk
+Size: 9057
+SHA256sum: 2426845d2ef6ff1c17793f0ecac4f8a81a30d236cbbdb5ae95f20b6d23012b66
+Description:  This package provides the Qt6 Concurrent v6.7.3 library.
+
+Package: libQt6Core
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libpcre2-16
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Core
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 2586722
+Filename: libQt6Core_6.7.3-2_mipsel_74kc.ipk
+Size: 2576198
+SHA256sum: ca2547246ae62fe323f4a1fea58751a752ef05ce2e8cf212998e58759e218995
+Description:  This package provides the Qt6 Core v6.7.3 library.
+
+Package: libQt6DBus
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6DBus
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 307832
+Filename: libQt6DBus_6.7.3-2_mipsel_74kc.ipk
+Size: 307571
+SHA256sum: 745ec4dad4e19a0b6dedc83aa7049434ab3c3dc0012ce76ceeaa1ef2286cc59a
+Description:  This package provides the Qt6 DBus v6.7.3 library.
+
+Package: libQt6Gui
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Gui
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 2823958
+Filename: libQt6Gui_6.7.3-2_mipsel_74kc.ipk
+Size: 2816130
+SHA256sum: 93ec22a53f29eaececa3bae87219b18d9fda9a920156748643db9a1ff698bea7
+Description:  This package provides the Qt6 Gui v6.7.3 library.
+
+Package: libQt6Network
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Network
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 802920
+Filename: libQt6Network_6.7.3-2_mipsel_74kc.ipk
+Size: 800700
+SHA256sum: 8b8cdf065d1acb975dd90330122e9ea47ef2e4438af152331b32190d5a0b7dac
+Description:  This package provides the Qt6 Network v6.7.3 library.
+
+Package: libQt6PrintSupport
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Widgets
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6PrintSupport
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 152280
+Filename: libQt6PrintSupport_6.7.3-2_mipsel_74kc.ipk
+Size: 152757
+SHA256sum: 1b973edebb0eae73d1ccbc6206171c57ac6ec0a387f6a755154ade140c262515
+Description:  This package provides the Qt6 PrintSupport v6.7.3 library.
+
+Package: libQt6Sql
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libsqlite3-0
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Sql
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 71356
+Filename: libQt6Sql_6.7.3-2_mipsel_74kc.ipk
+Size: 72127
+SHA256sum: 6fb904a5f8b0d548c90e812da34c63ec91c4398ec14cd1b0729b409a8b61571e
+Description:  This package provides the Qt6 Sql v6.7.3 library.
+
+Package: libQt6Test
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Test
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 142021
+Filename: libQt6Test_6.7.3-2_mipsel_74kc.ipk
+Size: 142586
+SHA256sum: da33910988a83689efbcdd4e770667d359e0bce9e74bda09613592959051ba50
+Description:  This package provides the Qt6 Test v6.7.3 library.
+
+Package: libQt6Widgets
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Widgets
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 3169288
+Filename: libQt6Widgets_6.7.3-2_mipsel_74kc.ipk
+Size: 3158824
+SHA256sum: d11743bcede58128dc6ef1619143d3ee28ff47638d6f301e2fbf75324a038724
+Description:  This package provides the Qt6 Widgets v6.7.3 library.
+
+Package: libQt6Xml
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: libQt6Xml
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 59171
+Filename: libQt6Xml_6.7.3-2_mipsel_74kc.ipk
+Size: 59876
+SHA256sum: ddef5bfabfce1535c4b6162577fe3a55b4d417c57e310c55ca71707de37140fe
+Description:  This package provides the Qt6 Xml v6.7.3 library.
+
+Package: libdouble-conversion
+Version: 3.2.1-1
+Depends: libc, libstdcpp6
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/libdouble-conversion
+SourceName: libdouble-conversion
+License: BSD-3c
+LicenseFiles: COPYING LICENSE
+Section: libs
+SourceDateEpoch: 1735301904
+Architecture: mipsel_74kc
+Installed-Size: 23053
+Filename: libdouble-conversion_3.2.1-1_mipsel_74kc.ipk
+Size: 23820
+SHA256sum: 60f60ea3bac3e367a5a79b8f1d9eb474b686fa6b0bb22ecb4193e633de8999af
+Description:  double-conversion provides binary-decimal and decimal-binary routines for IEEE doubles.
+ 
+ The library consists of efficient conversion routines that have been extracted
+ from the V8 JavaScript engine. The code has been refactored and improved so that
+ it can be used more easily in other projects.
+
+Package: luci-app-qbittorrent
+Version: 241229.28037
+Depends: libc, qbittorrent
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/luci-app-qbittorrent
+SourceName: luci-app-qbittorrent
+Section: luci
+SourceDateEpoch: 1735301904
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2324
+Filename: luci-app-qbittorrent_241229.28037_all.ipk
+Size: 3151
+SHA256sum: 43c5d35796a2ffe38013aabc4e3b75883b37b58d2f3f964e299c6522c9ff2e96
+Description:  LuCI app for qBittorrent
+
+Package: luci-i18n-qbittorrent-zh-cn
+Version: 241229.28037
+Depends: libc, luci-app-qbittorrent
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/luci-app-qbittorrent
+SourceName: luci-i18n-qbittorrent-zh-cn
+Section: luci
+SourceDateEpoch: 1735301904
+Architecture: all
+Installed-Size: 884
+Filename: luci-i18n-qbittorrent-zh-cn_241229.28037_all.ipk
+Size: 1646
+SHA256sum: 8008faa0405c7299f9971eef6bc71b757cd983a796767519a1c915861276c2c8
+Description:  Translation for luci-app-qbittorrent - 简体中文 (Chinese Simplified)
+
+Package: qbittorrent
+Version: 5.0.3-1
+Depends: libc, libtorrent-rasterbar, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qbittorrent
+SourceName: qbittorrent
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qbittorrent:qbittorrent
+Architecture: mipsel_74kc
+Installed-Size: 7658904
+Filename: qbittorrent_5.0.3-1_mipsel_74kc.ipk
+Size: 7655056
+SHA256sum: bf68b308056961a365c09b7d977d9d3f3cda9bb42be58fb7364abd12737c75e5
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qt6-plugin-libqcertonlybackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqcertonlybackend
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 37293
+Filename: qt6-plugin-libqcertonlybackend_6.7.3-2_mipsel_74kc.ipk
+Size: 38049
+SHA256sum: 7224398e3d1cc76cf3b46790628e24133b7a24688893332e2ec61b4e0ce8ba8a
+Description:  Qt6 Plugin libqcertonlybackend
+
+Package: qt6-plugin-libqminimal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqminimal
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 8602
+Filename: qt6-plugin-libqminimal_6.7.3-2_mipsel_74kc.ipk
+Size: 9345
+SHA256sum: f4e83bd6fcf240cabcbd12610f40e33a85c5e1c39af520134a30551b9d0da554
+Description:  Qt6 Plugin libqminimal
+
+Package: qt6-plugin-libqnetworkmanager
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqnetworkmanager
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 24333
+Filename: qt6-plugin-libqnetworkmanager_6.7.3-2_mipsel_74kc.ipk
+Size: 25074
+SHA256sum: 112c45ec2f67b56ae1104d84485a3f86778eaaf01eb04c9b41282397c4a11559
+Description:  Qt6 Plugin libqnetworkmanager
+
+Package: qt6-plugin-libqoffscreen
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqoffscreen
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 36311
+Filename: qt6-plugin-libqoffscreen_6.7.3-2_mipsel_74kc.ipk
+Size: 36984
+SHA256sum: 4db4eb67e8c2f6af66e853253aef5fa8c7e2f50587c279d68f3899c3bf30b537
+Description:  Qt6 Plugin libqoffscreen
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqopensslbackend
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 114738
+Filename: qt6-plugin-libqopensslbackend_6.7.3-2_mipsel_74kc.ipk
+Size: 115166
+SHA256sum: a8bdf08136225e015c8b388c0c262c6b029f3ca8a23e4b75621a0837fbf06573
+Description:  Qt6 Plugin libqopensslbackend
+
+Package: qt6-plugin-libqsqlite
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Sql
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqsqlite
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 36358
+Filename: qt6-plugin-libqsqlite_6.7.3-2_mipsel_74kc.ipk
+Size: 37023
+SHA256sum: 1eae77b187cc916597744da8b6d273533c3fb003e876707ae55a465d710d56bb
+Description:  Qt6 Plugin libqsqlite
+
+Package: qt6-plugin-libqtuiotouchplugin
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui, libQt6Network
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqtuiotouchplugin
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 38836
+Filename: qt6-plugin-libqtuiotouchplugin_6.7.3-2_mipsel_74kc.ipk
+Size: 39554
+SHA256sum: 4fd31e12ed46ba3be2886e758024492ca82fdf8a79d32f2b08e3b0af657939c3
+Description:  Qt6 Plugin libqtuiotouchplugin
+
+Package: qt6-plugin-libqxdgdesktopportal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+Source: /__w/qBittorrent-OpenWrt/qBittorrent-OpenWrt/qt6base
+SourceName: qt6-plugin-libqxdgdesktopportal
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1735301904
+CPE-ID: cpe:/a:qt:qt
+Maintainer: Krypton Lee <jun.k.lee199410@outlook.com>
+Architecture: mipsel_74kc
+Installed-Size: 40789
+Filename: qt6-plugin-libqxdgdesktopportal_6.7.3-2_mipsel_74kc.ipk
+Size: 41516
+SHA256sum: 1f610e64440fee6a396b666c7d8b7db3837b362ddcc1fce73a56a4f6f97d45ba
+Description:  Qt6 Plugin libqxdgdesktopportal
+

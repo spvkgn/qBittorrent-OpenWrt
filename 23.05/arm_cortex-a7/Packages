@@ -1,0 +1,289 @@
+Package: libQt6Concurrent
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 6758
+Filename: libQt6Concurrent_6.7.3-2_arm_cortex-a7.ipk
+Size: 7604
+SHA256sum: 3f731cda4f601c42a57247a850b9aa96d127d0af4e3efeb0ec9f5e4212ab257a
+Description:  This package provides the Qt6 Concurrent v6.7.3 library.
+
+Package: libQt6Core
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libpcre2-16
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 2255771
+Filename: libQt6Core_6.7.3-2_arm_cortex-a7.ipk
+Size: 2242741
+SHA256sum: 6f7229cf27e3a5ec2b07725928fc7567551c05d1da9854ea4d50ac9cdb247ea0
+Description:  This package provides the Qt6 Core v6.7.3 library.
+
+Package: libQt6DBus
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 292441
+Filename: libQt6DBus_6.7.3-2_arm_cortex-a7.ipk
+Size: 291696
+SHA256sum: fb9c78f5b72cdcea62e388c2603bf7b4dd16e9b7160353607988f6a0827d4a74
+Description:  This package provides the Qt6 DBus v6.7.3 library.
+
+Package: libQt6Gui
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 2563074
+Filename: libQt6Gui_6.7.3-2_arm_cortex-a7.ipk
+Size: 2550433
+SHA256sum: 85e21966cd49ec39ba526297a7da00c29ee0221b83cb61eea49d05a986e8689f
+Description:  This package provides the Qt6 Gui v6.7.3 library.
+
+Package: libQt6Network
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 759494
+Filename: libQt6Network_6.7.3-2_arm_cortex-a7.ipk
+Size: 754499
+SHA256sum: d947f1bf2c319c62735900a04d7adc5ee30bc493b0a73ec62e0aefc15ce62054
+Description:  This package provides the Qt6 Network v6.7.3 library.
+
+Package: libQt6PrintSupport
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Widgets
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 146832
+Filename: libQt6PrintSupport_6.7.3-2_arm_cortex-a7.ipk
+Size: 146303
+SHA256sum: 7584371a363e92d34049713dda755d765eb16f4bad43cc1568497311ffb27393
+Description:  This package provides the Qt6 PrintSupport v6.7.3 library.
+
+Package: libQt6Sql
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libsqlite3-0
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 67977
+Filename: libQt6Sql_6.7.3-2_arm_cortex-a7.ipk
+Size: 68676
+SHA256sum: 3df506d203c25b8b16703199a8f5f46c85f30e24b001d96b3cff79b5dc4ce301
+Description:  This package provides the Qt6 Sql v6.7.3 library.
+
+Package: libQt6Test
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 125658
+Filename: libQt6Test_6.7.3-2_arm_cortex-a7.ipk
+Size: 125794
+SHA256sum: 78036e8f717003fbc503bdc72327d02ead700e7c4f84182efec2bcf407b4f823
+Description:  This package provides the Qt6 Test v6.7.3 library.
+
+Package: libQt6Widgets
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 2920833
+Filename: libQt6Widgets_6.7.3-2_arm_cortex-a7.ipk
+Size: 2902415
+SHA256sum: 2c5c3fd8512bef2ea44eeb70f811b86c4bc86ba82eca4765708703032d240b66
+Description:  This package provides the Qt6 Widgets v6.7.3 library.
+
+Package: libQt6Xml
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 53672
+Filename: libQt6Xml_6.7.3-2_arm_cortex-a7.ipk
+Size: 54328
+SHA256sum: 974eeb5f94aa184e038b40eac60e920c955ca3cda5100e306b9e219b74d71149
+Description:  This package provides the Qt6 Xml v6.7.3 library.
+
+Package: libdouble-conversion
+Version: 3.2.1-1
+Depends: libc, libstdcpp6
+License: BSD-3c
+Section: libs
+Architecture: arm_cortex-a7
+Installed-Size: 20008
+Filename: libdouble-conversion_3.2.1-1_arm_cortex-a7.ipk
+Size: 20881
+SHA256sum: c06a43ad6de0d561b345ce873918108bcf14de1ff979f2710a6d137d1cfb8edf
+Description:  double-conversion provides binary-decimal and decimal-binary routines for IEEE doubles.
+ 
+ The library consists of efficient conversion routines that have been extracted
+ from the V8 JavaScript engine. The code has been refactored and improved so that
+ it can be used more easily in other projects.
+
+Package: luci-app-qbittorrent
+Version: 241229.28034
+Depends: libc, qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 2324
+Filename: luci-app-qbittorrent_241229.28034_all.ipk
+Size: 3155
+SHA256sum: cbd27d8ffba94c0226d5073970e8b1ee1d3a076d8a0fe57f7dfbd42ef71779d5
+Description:  LuCI app for qBittorrent
+
+Package: luci-i18n-qbittorrent-zh-cn
+Version: 241229.28034
+Depends: libc, luci-app-qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 884
+Filename: luci-i18n-qbittorrent-zh-cn_241229.28034_all.ipk
+Size: 1649
+SHA256sum: 0ce4ddcec07fa4eb426f7f0cce6a52cafda81179ad090600ac7fd92d18bc5989
+Description:  Translation for luci-app-qbittorrent - 简体中文 (Chinese Simplified)
+
+Package: qbittorrent
+Version: 5.0.3-1
+Depends: libc, libtorrent-rasterbar, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:qbittorrent:qbittorrent
+Architecture: arm_cortex-a7
+Installed-Size: 7740579
+Filename: qbittorrent_5.0.3-1_arm_cortex-a7.ipk
+Size: 7737160
+SHA256sum: f02ef5f221d2cb724d3867eea37ee35e71006be8edbd2fcf8e5ab7ce4b42f2d4
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qt6-plugin-libqcertonlybackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 33392
+Filename: qt6-plugin-libqcertonlybackend_6.7.3-2_arm_cortex-a7.ipk
+Size: 34203
+SHA256sum: 231ea5ba640f8e90414487274c83e2feb427ebf462087a6a391ebce3e0148fb9
+Description:  Qt6 Plugin libqcertonlybackend
+
+Package: qt6-plugin-libqminimal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 8004
+Filename: qt6-plugin-libqminimal_6.7.3-2_arm_cortex-a7.ipk
+Size: 8850
+SHA256sum: 018b67f789f786432744844b26d19da53c6e2a387faa6040ef15926879475e1c
+Description:  Qt6 Plugin libqminimal
+
+Package: qt6-plugin-libqnetworkmanager
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 22807
+Filename: qt6-plugin-libqnetworkmanager_6.7.3-2_arm_cortex-a7.ipk
+Size: 23550
+SHA256sum: 51f0340a227bf68867458d1bca6344e5552d4904d29019007f7afa789402a576
+Description:  Qt6 Plugin libqnetworkmanager
+
+Package: qt6-plugin-libqoffscreen
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 33195
+Filename: qt6-plugin-libqoffscreen_6.7.3-2_arm_cortex-a7.ipk
+Size: 33957
+SHA256sum: e57b827e89e713d516cb2fac132e659948d9fded2c29ffefe1af440ac957ac5a
+Description:  Qt6 Plugin libqoffscreen
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 108227
+Filename: qt6-plugin-libqopensslbackend_6.7.3-2_arm_cortex-a7.ipk
+Size: 108599
+SHA256sum: 814511fb0aff6aa80f273ad84b72438161391e688b701896ea17aba04d0fddc5
+Description:  Qt6 Plugin libqopensslbackend
+
+Package: qt6-plugin-libqsqlite
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Sql
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 35050
+Filename: qt6-plugin-libqsqlite_6.7.3-2_arm_cortex-a7.ipk
+Size: 35803
+SHA256sum: 9c51c339a4d9bb41188bc90ba9514ba28cb897613b0a0cf1a74a04a64a916ae6
+Description:  Qt6 Plugin libqsqlite
+
+Package: qt6-plugin-libqtuiotouchplugin
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 34698
+Filename: qt6-plugin-libqtuiotouchplugin_6.7.3-2_arm_cortex-a7.ipk
+Size: 35534
+SHA256sum: 5114962d2745b745565276119028e42a8d00ae82d1a545b48f704a452f48570f
+Description:  Qt6 Plugin libqtuiotouchplugin
+
+Package: qt6-plugin-libqxdgdesktopportal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: arm_cortex-a7
+Installed-Size: 38271
+Filename: qt6-plugin-libqxdgdesktopportal_6.7.3-2_arm_cortex-a7.ipk
+Size: 39076
+SHA256sum: d9b2b01eee644477e3ee3e5681fb0ffb90165429c494e9f9ed4c9de48b7129e7
+Description:  Qt6 Plugin libqxdgdesktopportal
+

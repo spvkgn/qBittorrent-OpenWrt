@@ -1,0 +1,289 @@
+Package: libQt6Concurrent
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 7639
+Filename: libQt6Concurrent_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 8379
+SHA256sum: 6da0c68532819f5e079289a216d6c636c3c5555960ad679d15975673d453dd99
+Description:  This package provides the Qt6 Concurrent v6.7.3 library.
+
+Package: libQt6Core
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libpcre2-16
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 2564086
+Filename: libQt6Core_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 2553543
+SHA256sum: 439eda2464c129b1660d6adcaa9ef5d9df52b2c6e9a3dfb85c326cb11b8f88e2
+Description:  This package provides the Qt6 Core v6.7.3 library.
+
+Package: libQt6DBus
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 306257
+Filename: libQt6DBus_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 306064
+SHA256sum: a0c73eb61facaa6c0b96cdbbc87e49222fd4616f2f3c9205a9180e606a2e382e
+Description:  This package provides the Qt6 DBus v6.7.3 library.
+
+Package: libQt6Gui
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 2682263
+Filename: libQt6Gui_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 2674018
+SHA256sum: d75d4365cc2bfe7f7105f954b4db90c71c9b4e0e649cae6eeee1da66ff2a961f
+Description:  This package provides the Qt6 Gui v6.7.3 library.
+
+Package: libQt6Network
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 800832
+Filename: libQt6Network_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 798655
+SHA256sum: 17436a5f920ee937f66eeff272e678981209fccefb9858f78b5129af5a9606c6
+Description:  This package provides the Qt6 Network v6.7.3 library.
+
+Package: libQt6PrintSupport
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Widgets
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 150549
+Filename: libQt6PrintSupport_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 151116
+SHA256sum: 3732f7635b4aec718d546b73204f1ea127ee96aeb00bfd9d33e1a0d1a7fe1181
+Description:  This package provides the Qt6 PrintSupport v6.7.3 library.
+
+Package: libQt6Sql
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core, libsqlite3-0
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 70884
+Filename: libQt6Sql_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 71698
+SHA256sum: 85dcff90def5c8fbf5afa8612c90b8ffa8d62f7794d42a792f02a7438c89be27
+Description:  This package provides the Qt6 Sql v6.7.3 library.
+
+Package: libQt6Test
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 139623
+Filename: libQt6Test_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 140181
+SHA256sum: b0b0d04a158ba0b4cc636bae1fd1b933f7c1a022d3719c1313d932442a48ffc7
+Description:  This package provides the Qt6 Test v6.7.3 library.
+
+Package: libQt6Widgets
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 3110390
+Filename: libQt6Widgets_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 3100178
+SHA256sum: 62f0affba4dd56b5a93661d1b15ae7b30d2308b7031b82ce03395c0b1d5ce290
+Description:  This package provides the Qt6 Widgets v6.7.3 library.
+
+Package: libQt6Xml
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Core
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 58801
+Filename: libQt6Xml_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 59496
+SHA256sum: 89a03f639aa96fc2dfde67f3dc8dca8ddd8efdf47825d79525fbe59d0734cbff
+Description:  This package provides the Qt6 Xml v6.7.3 library.
+
+Package: libdouble-conversion
+Version: 3.2.1-1
+Depends: libc, libstdcpp6
+License: BSD-3c
+Section: libs
+Architecture: mipsel_24kc_24kf
+Installed-Size: 23348
+Filename: libdouble-conversion_3.2.1-1_mipsel_24kc_24kf.ipk
+Size: 24126
+SHA256sum: de1e4380fdbed34e8247157c446089d6193fe234ddc5d1744bb37cf6afb7025d
+Description:  double-conversion provides binary-decimal and decimal-binary routines for IEEE doubles.
+ 
+ The library consists of efficient conversion routines that have been extracted
+ from the V8 JavaScript engine. The code has been refactored and improved so that
+ it can be used more easily in other projects.
+
+Package: luci-app-qbittorrent
+Version: 241229.28037
+Depends: libc, qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 2324
+Filename: luci-app-qbittorrent_241229.28037_all.ipk
+Size: 3151
+SHA256sum: 43c5d35796a2ffe38013aabc4e3b75883b37b58d2f3f964e299c6522c9ff2e96
+Description:  LuCI app for qBittorrent
+
+Package: luci-i18n-qbittorrent-zh-cn
+Version: 241229.28037
+Depends: libc, luci-app-qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 884
+Filename: luci-i18n-qbittorrent-zh-cn_241229.28037_all.ipk
+Size: 1646
+SHA256sum: 8008faa0405c7299f9971eef6bc71b757cd983a796767519a1c915861276c2c8
+Description:  Translation for luci-app-qbittorrent - 简体中文 (Chinese Simplified)
+
+Package: qbittorrent
+Version: 5.0.3-1
+Depends: libc, libtorrent-rasterbar, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:qbittorrent:qbittorrent
+Architecture: mipsel_24kc_24kf
+Installed-Size: 7655793
+Filename: qbittorrent_5.0.3-1_mipsel_24kc_24kf.ipk
+Size: 7652103
+SHA256sum: 7c470e0e4a0e71a1233986005478f3b5280b49b3f1e23e6dcef3b53ae10ad7d5
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qt6-plugin-libqcertonlybackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 36793
+Filename: qt6-plugin-libqcertonlybackend_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 37491
+SHA256sum: 18f2142900df5d1cd440458ea7822914871c376fc43c7dc73692a7a6d998a80e
+Description:  Qt6 Plugin libqcertonlybackend
+
+Package: qt6-plugin-libqminimal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 8591
+Filename: qt6-plugin-libqminimal_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 9309
+SHA256sum: 60db39316909823ba015a29d1fafa94765f039af7f294f943e99169c6c855b00
+Description:  Qt6 Plugin libqminimal
+
+Package: qt6-plugin-libqnetworkmanager
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6DBus, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 24267
+Filename: qt6-plugin-libqnetworkmanager_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 25007
+SHA256sum: 4cec28a750ad76992d9c7c3c0ba91ddd40336bee4088a067e97cf24ce4a141bd
+Description:  Qt6 Plugin libqnetworkmanager
+
+Package: qt6-plugin-libqoffscreen
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 35874
+Filename: qt6-plugin-libqoffscreen_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 36523
+SHA256sum: 78b131e077f08f80dfa7ef7be3bde12f2187adff2840fd38673983b6bf7bf4c7
+Description:  Qt6 Plugin libqoffscreen
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 114114
+Filename: qt6-plugin-libqopensslbackend_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 114588
+SHA256sum: 20f6bde3e2c4f564c9a4612d0b5dec490aa0e795bf3f6ed3c9e3905345f3ad51
+Description:  Qt6 Plugin libqopensslbackend
+
+Package: qt6-plugin-libqsqlite
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Sql
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 36122
+Filename: qt6-plugin-libqsqlite_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 36776
+SHA256sum: a0355ca9e34d1b125257c6cac012f4724ff7310e811a9eb503ce8238eced5d9c
+Description:  Qt6 Plugin libqsqlite
+
+Package: qt6-plugin-libqtuiotouchplugin
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui, libQt6Network
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 37899
+Filename: qt6-plugin-libqtuiotouchplugin_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 38595
+SHA256sum: 7ef7ea29e6460a6232ec9120444bdc55ceda307682349bacbf4766f3fa04be6d
+Description:  Qt6 Plugin libqtuiotouchplugin
+
+Package: qt6-plugin-libqxdgdesktopportal
+Version: 6.7.3-2
+Depends: libc, libatomic1, libdouble-conversion, libstdcpp6, zlib, libQt6Gui
+License: LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc_24kf
+Installed-Size: 40663
+Filename: qt6-plugin-libqxdgdesktopportal_6.7.3-2_mipsel_24kc_24kf.ipk
+Size: 41407
+SHA256sum: 6005b538928e1a3a4ca2faf1f2221fa1d5804aac61ea64ab88920464f3809d66
+Description:  Qt6 Plugin libqxdgdesktopportal
+
